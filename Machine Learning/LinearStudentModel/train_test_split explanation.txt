@@ -1,0 +1,13 @@
+x: This is your feature data (independent variables).
+y: This is your target data (dependent variable).
+The train_test_split function splits your data into two sets:
+
+x_train: This will contain a random subset of your feature data for training your machine learning model.
+x_test: This will contain a different random subset of your feature data for testing the performance of your trained model.
+Likewise, it splits your target data into:
+
+y_train: The corresponding target values for the training set.
+y_test: The corresponding target values for the testing set.
+The test_size parameter specifies the proportion of the data that should be used for testing. In this case, test_size=0.1 means that 10% of your data will be used for testing, and the remaining 90% will be used for training. You can adjust this value to change the size of your test set.
+
+This split allows you to train your machine learning model on a portion of your data and then evaluate its performance on the remaining data that it hasn't seen during training. It helps you assess how well your model generalizes to new, unseen data.
